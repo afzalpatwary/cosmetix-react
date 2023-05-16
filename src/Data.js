@@ -4,10 +4,14 @@ import ProductImg3 from './assets/img/product3.png';
 import ProductImg4 from './assets/img/product4.png';
 import ProductImg5 from './assets/img/product5.png';
 import ProductImg6 from './assets/img/product6.png';
-// import ProductImg7 from '../../assets/img/product7.png';
-// import ProductImg8 from '../../assets/img/product8.png';
-// import ProductImg9 from '../../assets/img/product9.png';
-// import ProductImg10 from '../../assets/img/product10.png';
+
+// blog images
+import BlogImg1 from './assets/img/blogImg1.png';
+import BlogImg2 from './assets/img/blogImg2.png';
+import BlogImg3 from './assets/img/blogImg3.png';
+import UserIcon from './assets/img/user.svg';
+
+
 
 
 
@@ -100,4 +104,38 @@ export const ProductList = [
     bgClr: "bg-clr-green",
     cornerBg: "bg-clr-greenDeep"
   },
+]
+
+export const BlogList = [
+
+  {
+    blogImg: BlogImg1,
+    postDate: "FEB 7, 2023",
+    blogCat: "LIFESTYLE",
+    blogTitle: "The 7 Best Bikini Trimmers to Get Ready for Swimsuit Season.",
+    blogIntro: "",
+    blogAuthor: "By Luisa Howell",
+    userIcon: UserIcon,
+  },
+
+   {
+    blogImg: BlogImg2,
+    postDate: "FEB 8, 2023",
+    blogCat: "FASHION",
+    blogTitle: "Perfect Way To Find Your Lip Combo For Everyday Lip Makeup.",
+    blogIntro: "",
+    blogAuthor: "By Mallali youg",
+    userIcon: UserIcon,
+  },
+
+   {
+    blogImg: BlogImg3,
+    postDate: "FEB 8, 2023",
+    blogCat: "FASHION",
+    blogTitle: "Perfect Way To Find Your Lip Combo For Everyday Lip Makeup.",
+    blogIntro: "",
+    blogAuthor: "By Jacks spot",
+    userIcon: UserIcon,
+  },
+
 ]

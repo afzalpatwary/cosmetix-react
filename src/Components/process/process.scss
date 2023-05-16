@@ -1,0 +1,27 @@
+.bg-clr-gray1{
+  background-color: #F1F5F3;
+}
+.bg-clr-offWhite{
+  background-color: #F9FBFA;
+}
+
+.processWrapper{
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 2fr;
+  .processItem{
+    &:last-child{
+      border-right: 0 !important;
+    }
+  }
+  @media (max-width: 991px) {
+     grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  @media (max-width: 767px) {
+     grid-template-columns: 1fr 1fr;
+     .processItem{
+      &.justify-content-start{
+        justify-content: center !important;
+      }
+     }
+  }
+}

@@ -3,6 +3,7 @@ import { ProductList } from '../../Data';
 import IconLove from '../../assets/img/IconLove.svg';
 import ArrowLeft from '../../assets/img/arrow-lefts.svg';
 import ArrowRight from '../../assets/img/arrow-right.svg';
+import ArrowRights from '../../assets/img/arrow-rights.svg';
 import bagIcon from '../../assets/img/bagIcon.svg';
 import disableStarIcon from '../../assets/img/disable-star.svg';
 import starIcon from '../../assets/img/star-icon.svg';
@@ -13,10 +14,14 @@ const BestSeller = () => {
   return (
     <section className='bestSeller section-padding bg-clr-primary10'>
       <div className="container">
-        <div className="mb-4 pb-2">
+        <div className="section-heading mb-4 pb-2 d-flex justify-content-between align-items-center">
           <h2 className='section-title fs-3 fw-black text-clr-dark1 mt-0'>
             Best Seller
           </h2>
+          <Link to='/' className='d-flex gap-1 align-items-center fw-black fs-14 text-clr-dark3'>
+            View All Products
+            <img src={ArrowRights} alt="icon" className="img-fluid" />
+          </Link>
         </div>
         <div className="row">
 
