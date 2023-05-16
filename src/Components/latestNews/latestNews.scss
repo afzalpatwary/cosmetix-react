@@ -1,3 +1,24 @@
 .ls1{
   letter-spacing: 0.1em;
 }
+.single-blog{
+  cursor: pointer;
+  .blogImg{
+      img{
+        transition: all 0.2s linear;
+      }
+    }
+    .blogTitle{
+      transition: all 0.2s linear;
+    }
+  &:hover{
+    .blogImg{
+      img{
+        transform: scale(1.1) rotate(3deg);
+      }
+    }
+    .blogTitle{
+      color: var(--green);
+    }
+  }
+}

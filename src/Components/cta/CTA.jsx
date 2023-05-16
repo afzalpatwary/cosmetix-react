@@ -18,7 +18,7 @@ const CTA = () => {
               <p className="fs-6 fw-medium text-clr-dark6 mb-5">
                 Made using clean, non-toxic ingredients, our products are designed for everyone. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain.
               </p>
-              <Link href="#" className='bg-white fs-14 px-4 py-3 fw-black text-clr-dark1 text-uppercase'>
+              <Link href="#" className='bg-btn bg-white fs-14 px-4 py-3 fw-black text-clr-dark1 text-uppercase'>
                 Explore More
               </Link>
             </div>

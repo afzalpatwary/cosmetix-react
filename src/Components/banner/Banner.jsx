@@ -52,7 +52,7 @@ const Banner = () => {
                     <p className="fs-5 fw-normal text-clr-dark3 mb-4 pb-3">
                       {item.desc}
                     </p>
-                    <Link href="#" className='bg-clr-green px-4 py-3 fw-black text-white d-inline-flex gap-2 align-items-center text-uppercase'>
+                    <Link href="#" className='bg-btn bg-clr-green px-4 py-3 fw-black text-white d-inline-flex gap-2 align-items-center text-uppercase'>
                       SHOP NOW
                       <img src={arrowIcon} alt="icon" />
                     </Link>

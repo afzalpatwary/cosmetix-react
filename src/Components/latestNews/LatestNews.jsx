@@ -21,7 +21,7 @@ const LatestNews = () => {
             BlogList.map((blog, index) => {
               return <div className="col-xl-4 col-sm-6 mb-4" key={index}>
                 <div className="single-blog h-100">
-                  <div className="blogImg">
+                  <div className="blogImg overflow-hidden">
                     <img src={blog.blogImg} alt="blog img" className="img-fluid w-100" />
                   </div>
                   <div className="blogInfo p-4 bg-white">
@@ -31,7 +31,7 @@ const LatestNews = () => {
                       <Link to='/' className="fs-12 fw-black text-clr-green">{blog.blogCat}</Link>
                     </div>
                     <h3>
-                      <Link to='/' className="fs-6 fw-bold text-clr-dark1 lh-base mb-3 d-block">
+                      <Link to='/' className="blogTitle fs-6 fw-bold text-clr-dark1 lh-base mb-3 d-block">
                         {blog.blogTitle}
                       </Link>
                     </h3>
