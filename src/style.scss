@@ -27,6 +27,7 @@ body {
     --primary10: #F8F9FA;
     --danger: #FF4E3E;
     --dangerDeep: #622620;
+    --whiteShade: #F8F9FA;
 }
 /* reset, root - End */
 
@@ -175,6 +176,9 @@ button {
 }
 .bg-clr-dangerDeep {
     background-color: var(--dangerDeep);
+}
+.bg-clr-whiteShade {
+    background-color: var(--whiteShade);
 }
 
 
