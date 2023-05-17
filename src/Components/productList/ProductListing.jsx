@@ -7,10 +7,8 @@ import IconLove from '../../assets/img/IconLove.svg';
 import ArrowLeft from '../../assets/img/arrow-lefts.svg';
 import ArrowRight from '../../assets/img/arrow-right.svg';
 import bagIcon from '../../assets/img/bagIcon.svg';
-import disableStarIcon from '../../assets/img/disable-star.svg';
 import GridIcon from '../../assets/img/grid-icon.svg';
 import ListIcon from '../../assets/img/list-icon.svg';
-import starIcon from '../../assets/img/star-icon.svg';
 import './productList.scss';
 
 const ProductListing = () => {
@@ -30,7 +28,7 @@ const ProductListing = () => {
           </span>
         </div>
         <div className="row">
-          <div className="col-xl-4">
+          <div className="col-xl-3">
             <div className="leftSidebar border p-3">
               <div className="filterItem filter-by-category">
                 <div className="sidebar-heading border-bottom py-3">
@@ -179,7 +177,7 @@ const ProductListing = () => {
               </div>
             </div>
           </div>
-          <div className="col-xl-8">
+          <div className="col-xl-9">
             <div className="product-layout d-flex justify-content-between mb-4 pb-2">
               <div className="layout-change d-flex align-items-center gap-3">
                 <button className='gridViewBtn btn border rounded-0 p-3'>
@@ -206,14 +204,14 @@ const ProductListing = () => {
                       <div className="col-xl-4 col-md-6" key={index}>
                         <div className="bestSellerItem mb-4">
                           <div className="productImage bg-clr-primary10 p-2 text-center position-relative mb-4">
-                            <img src={product.productImg} alt="ProductImg" className="img-fluid" />
+                            <img src={product.productImg} alt="ProductImg" className="img-fluid productImg" />
                             <span>
                               {product?.sticker && <span className={`${product?.bgClr} sticker position-absolute py-2 px-3 fs-12 fw-bold text-center text-white`}>
                                 {product?.sticker}
                               </span>}
                               {product?.sticker && <span className={`${product?.cornerBg} stickerLeft position-absolute`}></span>}
                             </span>
-                            <div className="afterHover rgbaBG1 position-absolute start-0 end-0 top-0 bottom-0 m-2 d-flex align-items-center justify-content-center">
+                            <div className="afterHover rgbaBG1 position-absolute start-0 end-0 top-0 bottom-0 m-2 d-flex align-items-end justify-content-center">
                               <div className="icons">
                                 <Link href="#">
                                   <img src={IconLove} alt="iconLove" className="iconLove position-absolute img-fluid " />
@@ -223,8 +221,8 @@ const ProductListing = () => {
                                   <img src={ArrowLeft} alt="iconLove" className="ArrowLeft position-absolute img-fluid " />
                                 </Link>
                               </div>
-                              <div className="hoverBtn">
-                                <button type='button' className='bg-clr-dark7 border-0 px-4 py-3 fw-black fs-14 text-clr-green d-inline-flex gap-2 align-items-center text-uppercase'>
+                              <div className="hoverBtn mb-4">
+                                <button type='button' className='bg-clr-dark7 border-0 px-4 py-2 fw-black fs-14 text-clr-green d-inline-flex gap-2 align-items-center text-uppercase'>
                                   <img src={bagIcon} alt="icon" className='img-fluid' />
                                   Add to Card
                                 </button>

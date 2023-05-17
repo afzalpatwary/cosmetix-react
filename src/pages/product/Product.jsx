@@ -1,4 +1,5 @@
 import CartSidebar from '../../Components/cartSidebar/CartSidebar';
+import LatestNews from '../../Components/latestNews/LatestNews';
 import ProductListing from '../../Components/productList/ProductListing';
 import SubPageBanner from '../../Components/subPageBanner/SubPageBanner';
 import BannerBG from '../../assets/img/subBannerBg.jpg';
@@ -15,6 +16,7 @@ const Product = () => {
         bannerImg={subBannerImg}
       />
       <ProductListing />
+      <LatestNews />
     </div>
   );
 };
