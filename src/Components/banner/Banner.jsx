@@ -68,6 +68,8 @@ const Banner = () => {
       </Slider>
     </div>
   );
+
+  
 };
 
 export default Banner;

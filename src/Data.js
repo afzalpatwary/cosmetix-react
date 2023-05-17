@@ -12,6 +12,12 @@ import BlogImg3 from './assets/img/blogImg3.png';
 import UserIcon from './assets/img/user.svg';
 
 
+export const images = [
+    ProductImg1,
+      ProductImg2,
+      ProductImg3,
+      ProductImg4,
+]
 
 
 
@@ -31,6 +37,12 @@ export const ProductList = [
     colorBg: "bg-clr-dark1",
     brand: "Monastery",
     stock: 5,
+    images:[
+      ProductImg1,
+      ProductImg2,
+      ProductImg3,
+      ProductImg4,
+    ]
   },
   {
      id: 2,

@@ -260,3 +260,85 @@ const ProductListing = () => {
 };
 
 export default ProductListing;
+
+
+
+
+
+
+
+
+
+
+
+// import { useEffect, useRef, useState } from "react";
+// import Slider from "react-slick";
+// import { ProductList } from "../../Data";
+
+
+
+// const ProductDetailsSlider = () => {
+
+
+//   const [nav1, setNav1] = useState(null);
+//   const [nav2, setNav2] = useState(null);
+//   const slider1 = useRef(null);
+//   const slider2 = useRef(null);
+
+//   useEffect(() => {
+//     setNav1(slider1.current);
+//     setNav2(slider2.current);
+//   }, []);
+//   return (
+//     <section className="ProductDetailsSlider section-padding bg-clr-primary10">
+//       <div className="container">
+//         <div className="row">
+//           <div className="col-lg-6">
+//             <Slider asNavFor={nav2} ref={slider1}>
+//               {
+//                 ProductList.map((product, index) => {
+//                   return <div className="slideImages" key={index}>
+//                     {
+//                       product?.images?.map((img, index) => {
+//                         return <div className="" key={index}>
+//                           <img src={img} alt="img" className="img-fluid" />
+//                         </div>
+//                       })
+//                     }
+
+//                   </div>
+//                 })
+//               }
+//             </Slider>
+
+//             <Slider
+//               asNavFor={nav1}
+//               ref={slider2}
+//               slidesToShow={3}
+//               swipeToSlide={true}
+//               focusOnSelect={true}
+//             >
+//               {
+//                 ProductList.map((product, index) => {
+//                   return <div className="slideImages" key={index}>
+//                     {
+//                       product?.images?.map((img, index) => {
+//                         return <img src={img} alt="img" className="img-fluid" key={index} />
+//                       })
+//                     }
+
+//                   </div>
+//                 })
+//               }
+//             </Slider>
+//           </div>
+//           <div className="col-lg-6">
+//             Right Info
+//           </div>
+//         </div>
+//       </div>
+//     </section>
+//   );
+// };
+
+// export default ProductDetailsSlider;
