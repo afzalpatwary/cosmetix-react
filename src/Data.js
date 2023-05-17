@@ -25,7 +25,12 @@ export const ProductList = [
     price: "₹299.00",
     oldPrice: "₹299.00",
     bgClr: "bg-clr-green",
-    cornerBg: "bg-clr-greenDeep"
+    cornerBg: "bg-clr-greenDeep",
+    category: "Face",
+    color: "Black",
+    colorBg: "bg-clr-dark1",
+    brand: "Monastery",
+    stock: 5,
   },
   {
      id: 2,
@@ -36,10 +41,15 @@ export const ProductList = [
     price: "₹158.00",
     oldPrice: "₹200.00",
     bgClr: "bg-clr-dark",
-    cornerBg: "bg-clr-greenDeep"
+    cornerBg: "bg-clr-greenDeep",
+    category: "Hair Styling",
+    color: "Green",
+    colorBg: "bg-clr-dark1",
+    brand: "Lessse",
+     stock: 3,
   },
   {
-     id: 3,
+    id: 3,
     sticker: "",
     productImg: ProductImg3,
     productCategory: "FOUNDATION",
@@ -47,7 +57,12 @@ export const ProductList = [
     price: "₹111.00",
     oldPrice: "₹113.00",
     bgClr: "bg-clr-green",
-    cornerBg: "bg-clr-greenDeep"
+    cornerBg: "bg-clr-greenDeep",
+    category: "Lips",
+    color: "Blue",
+    colorBg: "bg-clr-green",
+    brand: "Lessse",
+     stock: 2,
   },
   {
      id: 4,
@@ -58,7 +73,12 @@ export const ProductList = [
     price: "₹115.00",
     oldPrice: "₹135.00",
     bgClr: "bg-clr-green",
-    cornerBg: "bg-clr-greenDeep"
+    cornerBg: "bg-clr-greenDeep",
+    category: "Face",
+    color: "Brown",
+    colorBg: "bg-clr-green",
+    brand: "Lessse",
+     stock: 5,
   },
   {
      id: 5,
@@ -69,7 +89,12 @@ export const ProductList = [
     price: "₹299.00",
     oldPrice: "₹299.00",
     bgClr: "bg-clr-green",
-    cornerBg: "bg-clr-greenDeep"
+    cornerBg: "bg-clr-greenDeep",
+    category: "Lips",
+    color: "Orange",
+    colorBg: "bg-clr-yellow",
+    brand: "Kapowder",
+     stock: 4,
   },
   {
      id: 6,
@@ -81,6 +106,11 @@ export const ProductList = [
     oldPrice: "₹200.00",
     bgClr: "bg-clr-danger",
     cornerBg: "bg-clr-dangerDeep",
+    category: "Skincare",
+    color: "Black",
+    colorBg: "bg-clr-yellowLight",
+    brand: "Kapowder",
+     stock: 5,
   },
   {
      id: 7,
@@ -91,10 +121,15 @@ export const ProductList = [
     price: "₹111.00",
     oldPrice: "₹113.00",
     bgClr: "bg-clr-green",
-    cornerBg: "bg-clr-greenDeep"
+    cornerBg: "bg-clr-greenDeep",
+    category: "Face",
+    color: "Green",
+    colorBg: "bg-clr-danger",
+    brand: "Erbaviva",
+     stock: 5,
   },
   {
-     id: 8,
+    id: 8,
     sticker: "",
     productImg: ProductImg2,
     productCategory: "HAIR MASK",
@@ -102,7 +137,12 @@ export const ProductList = [
     price: "₹115.00",
     oldPrice: "₹135.00",
     bgClr: "bg-clr-green",
-    cornerBg: "bg-clr-greenDeep"
+    cornerBg: "bg-clr-greenDeep",
+    category: "Skincare",
+    color: "Blue",
+    colorBg: "bg-clr-whiteShade",
+    brand: "Erbaviva",
+    stock: 5,
   },
 ]
 

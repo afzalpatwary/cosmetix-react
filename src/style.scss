@@ -16,6 +16,7 @@ body {
 /* reset, root */
 :root {
     --dark1: #15281E;
+    --dark2: #2E3F36;
     --dark3: #45564D;
     --dark4: #5F766A;
     --dark6: #C8D9D0;
@@ -28,6 +29,9 @@ body {
     --danger: #FF4E3E;
     --dangerDeep: #622620;
     --whiteShade: #F8F9FA;
+    --blue: #1E73BE;
+    --brown: #7C4700;
+    --orange: #FF4500;
 }
 /* reset, root - End */
 
@@ -131,6 +135,9 @@ button {
 .text-clr-dark1 {
     color: var(--dark1);
 }
+.text-clr-dark2 {
+    color: var(--dark2);
+}
 .text-clr-dark3 {
     color: var(--dark3);
 }
@@ -179,6 +186,15 @@ button {
 }
 .bg-clr-whiteShade {
     background-color: var(--whiteShade);
+}
+.bg-clr-blue {
+    background-color: var(--blue);
+}
+.bg-clr-brown {
+    background-color: var(--brown);
+}
+.bg-clr-orange {
+    background-color: var(--orange);
 }
 
 

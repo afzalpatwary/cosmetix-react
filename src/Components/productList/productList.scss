@@ -1,0 +1,32 @@
+.form-check-input {
+  border: 1.5px solid #E8F2ED;
+  &:checked{
+    background-color: var(--green);
+    border-color: var(--green);
+    box-shadow: none;
+  }
+  &:focus{
+    box-shadow: none;
+  }
+}
+
+.priceRang{
+  background-color: var(--dark1);
+  height: 2px;
+  .range-slider__thumb, .range-slider__range{
+    background-color: var(--dark1);
+  }
+  .range-slider__thumb{
+    width: 20px;
+    height: 20px;
+    border: 3px solid #fff;
+  }
+}
+
+.single-color{
+  .color{
+     width: 30px;
+     height: 30px;
+     border: 5px solid #E8F2ED;
+  }
+}
