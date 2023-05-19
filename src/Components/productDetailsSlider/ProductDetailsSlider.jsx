@@ -1,14 +1,17 @@
 
 import { useEffect, useRef, useState } from "react";
+import { Link } from "react-router-dom";
 import Slider from "react-slick";
 import { images } from "../../Data";
+import arrowIcon from '../../assets/img/arrow-right.svg';
 import disableStarIcon from '../../assets/img/disable-star.svg';
+import fb from '../../assets/img/fb.svg';
+import instagram from '../../assets/img/instagram.svg';
 import leftArrow from '../../assets/img/left-arrow-green.svg';
 import nextArrow from '../../assets/img/next-arrow-green.svg';
+import pinterest from '../../assets/img/pinterest_line.svg';
 import starIcon from '../../assets/img/star-icon.svg';
-import arrowIcon from '../../assets/img/arrow-right.svg';
 import './productDetailsSlider.scss';
-import { Link } from "react-router-dom";
 
 
 
@@ -42,7 +45,7 @@ const ProductDetailsSlider = () => {
   return (
     <section className="ProductDetailsSlider section-padding bg-clr-primary10">
       <div className="container">
-        <div className="row gx-5">
+        <div className="row gx-xl-5 align-items-center">
           <div className="col-lg-6">
             <Slider asNavFor={nav2} ref={slider1}
               arrows={true}
@@ -76,7 +79,7 @@ const ProductDetailsSlider = () => {
             </Slider>
           </div>
           <div className="col-lg-6">
-            <div className="product-info pb-5 borderB1Green">
+            <div className="product-info pb-5 borderB1Green mb-4">
               <h2 className="product-title fs-36 fw-black text-clr-dark1 mb-2">
                 Superfood Glow Moisturiser
               </h2>
@@ -135,7 +138,6 @@ const ProductDetailsSlider = () => {
               <div className="">
                 <Link href="#" className='bg-btn border1Green px-4 h-48 fw-black fs-14 justify-content-center text-clr-green d-flex gap-2 align-items-center mb-3'>
                   Add to cart
-                  <img src={arrowIcon} alt="icon" />
                 </Link>
                 <Link href="#" className='bg-btn bg-clr-green px-4 h-48 fw-black fs-14 justify-content-center text-white d-flex gap-2 align-items-center'>
                   Buy Now
@@ -143,6 +145,26 @@ const ProductDetailsSlider = () => {
                 </Link>
               </div>
             </div>
+            <ul className="social-list list-unstyled mb-0 d-flex align-items-center gap-3">
+              <li className="fs-14 text-clr-dark1 fw-normal">
+                Share:
+              </li>
+              <li>
+                <Link to='/'>
+                  <img src={pinterest} alt="icon" className="img-fluid" />
+                </Link>
+              </li>
+              <li>
+                <Link to='/'>
+                  <img src={instagram} alt="icon" className="img-fluid" />
+                </Link>
+              </li>
+              <li>
+                <Link to='/'>
+                  <img src={fb} alt="icon" className="img-fluid" />
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
       </div>

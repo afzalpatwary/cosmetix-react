@@ -1,0 +1,13 @@
+.nav-pills{
+  .nav-item{
+    .nav-link{
+      border-bottom: 1px solid transparent !important;
+      border-radius: 0;
+      margin-bottom: -1px;
+      &.active, &:hover{
+        color: var(--dark1);
+        border-color: var(--dark1) !important;
+      }
+    }
+  }
+}
