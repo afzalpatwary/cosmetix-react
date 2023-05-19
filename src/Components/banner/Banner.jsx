@@ -36,6 +36,7 @@ const Banner = () => {
     slidesToScroll: 1,
     autoplay: true,
     fade: true,
+    arrows: false,
   };
 
   return (
